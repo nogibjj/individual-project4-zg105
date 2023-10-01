@@ -31,7 +31,7 @@ Set up via Azure App Services, it's key in the configuration setting to add "WEB
 ### Step Five a) 
 Log into Azure, search app services and select create (web app)
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 
 ### Step Five b) 
 When creating the app be sure to select Docker Container (BTW their are some gotchas with the naming so read the instructions)
