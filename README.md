@@ -46,9 +46,11 @@ When selecting the Docker container be sure to point to the correct image tab.
 ![Alt text](image-2.png)
 
 
-### Step Five c) 
-When selecting the Docker container be sure to point to the correct image tab.
+### Step Five d) 
+After deployment you'll need to go configuration and add "WEBSITES_PORT" with a value of 5000 (more below). This will allow your app to run on at the public URL provided by Azure
 
-
-## Websites Port
+Website Port 
 ![Alt text](image-4.png)
+
+Public URL
+![Alt text](image-5.png)
