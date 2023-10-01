@@ -1,18 +1,16 @@
 # Azure-Flask-App
-Creating a Flask App on GitHub (for containerization and deployment on Azure)
+This readme will walk you through creating an auto scaling app using GitHub, Docker, and Microsoft App Services 
 
-## Going to be starting with a basic containerized app with Flask
-Using this tutorial you can build an automatically scaling app, with Flask and then continue to advance the web app
+## Step One Environment Set Up
+Set up your environment using GitHub Code Spaces and VScode.
 
-## Step One 
-GitHub Code Spaces with VScode
+![Alt text](image-6.png)
 
-## Step Two 
-Basic flask app (critical to have host and port number)
-Plenty of simple apps online but you can also use mine.
+## Step Two Flask App
+Build a basic flask app (critical to have host and port number). Feel free to start with mine but there are also plenty of more sophisticated ones online, the most important thing to me was getting the plumbing sorted.
 
 ## Step Three Build Docker File 
-Be sure to expose the port 5000 
+Use mine as a template but there are a couple of gotchas. Be sure to expose the port 5000 
 Commands:
   - docker build app-name .
   - docker run -p  5000:5000 app-name
