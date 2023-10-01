@@ -26,3 +26,7 @@ Commands:
 
 ## Step Five 
 Set up via Azure App Services, it's key in the configuration setting to add "WEBSITES_PORT" with a value of 5000
+
+### Step Five a) 
+Log into Azure, search app services and select create (web app)
+![Alt text](image.png)
