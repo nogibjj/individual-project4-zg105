@@ -18,9 +18,9 @@ Commands:
 4. Login into docker hub
 docker login --username=zhichenguo in the terminal, build container and push it to DockerHub
 Commands:
-  - docker login --username=
-  - docker build -t username/repo .
-  - docker push username/repo
+  - docker login --username=zhichenguo
+  - docker build -t zhichenguo/repo .
+  - docker push zhichenguo/repo
 ![](2.png)
 
 5. Set up via Azure App Services, add "WEBSITES_PORT" with a value of 5000, add a docker hub resource
